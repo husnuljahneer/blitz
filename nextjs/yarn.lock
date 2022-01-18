@@ -2322,15 +2322,15 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@blitzjs/generator@0.44.3":
-  version "0.44.3"
-  resolved "https://registry.yarnpkg.com/@blitzjs/generator/-/generator-0.44.3.tgz#53100bf670bfd54c7362f77e72cbe500bd2a9a19"
-  integrity sha512-whqQBL1RpQPXSGDQVNXMA/yfmBT4DxoaariydtAWVp0aZkxNEepXjp5YT6v2cGIYPo/k0nwddYGt7j/0vXB6yA==
+"@blitzjs/generator@0.45.1":
+  version "0.45.1"
+  resolved "https://registry.yarnpkg.com/@blitzjs/generator/-/generator-0.45.1.tgz#1c411e524ad3199f2903268d9e5a39c93eec5589"
+  integrity sha512-4FC2S05SZzlDa93IkUmNyE7I/v8EOPPkr88/ZCdGAA93ByaVU6tThECyD6XpbLIL+QYxR6Oto2pMKg5jy4YTNg==
   dependencies:
     "@babel/core" "7.12.10"
     "@babel/plugin-transform-typescript" "7.12.1"
-    "@blitzjs/server" "0.44.3"
-    "@mrleebo/prisma-ast" "0.2.4"
+    "@blitzjs/server" "0.45.1"
+    "@mrleebo/prisma-ast" "0.2.6"
     "@types/jscodeshift" "0.11.2"
     chalk "^4.1.0"
     cross-spawn "7.0.3"
@@ -2347,10 +2347,10 @@
     username "^5.1.0"
     vinyl "2.2.1"
 
-"@blitzjs/server@0.44.3":
-  version "0.44.3"
-  resolved "https://registry.yarnpkg.com/@blitzjs/server/-/server-0.44.3.tgz#626808b0fb8b8547ffab9f86a3243f0134ce1ca9"
-  integrity sha512-veTjPwbSLzteUugQFFHYgXY/o7Mht622U5c9gtLPuTffJ74YSzqEe+mpOeXXaj5RNJXoBJKG3JlDaJzSF3iR8A==
+"@blitzjs/server@0.45.1":
+  version "0.45.1"
+  resolved "https://registry.yarnpkg.com/@blitzjs/server/-/server-0.45.1.tgz#b0be1e479761cbe934e698c2cd045a20ddfe01d9"
+  integrity sha512-sM29CJf3KuPUTLY9S0vhUje2tyqjz7/K5o9xj5+D2/ZK31/RdtmZzTYaYdHmlFUhtAlE5HJJFLZVWjd3rHZfrg==
   dependencies:
     cross-spawn "7.0.3"
     detect-port "1.3.0"
@@ -3594,13 +3594,6 @@
 "@mdx-js/tag@^0.18.0":
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/@mdx-js/tag/-/tag-0.18.0.tgz#386d687deaed7133699a420d74612acdd1ed1c26"
-
-"@mrleebo/prisma-ast@0.2.4":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@mrleebo/prisma-ast/-/prisma-ast-0.2.4.tgz#93a413e8db03b360ebe8aa315cdb5984420f466b"
-  integrity sha512-0hjx2e8EVbpa7R8oxs+Y6L4FYxu82H2BxEoogHKoZUo0qQ6vLxy9I4mcrlfhfCR5EbOYOROQhUjH6ShPPQqRrg==
-  dependencies:
-    chevrotain "^9.0.1"
 
 "@mrleebo/prisma-ast@0.2.6":
   version "0.2.6"
@@ -13710,12 +13703,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@~4.17.10:
-  version "4.17.20"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
-  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
-
-lodash@^4.17.21:
+lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0, lodash@~4.17.10:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
